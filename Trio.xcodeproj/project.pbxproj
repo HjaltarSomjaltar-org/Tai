@@ -1210,6 +1210,16 @@
 		BD14CA4C88D904242178280A /* TrioLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BC1040D2F0BD84E0718784 /* TrioLoggerTests.swift */; };
 		FC83BDFB7C330BFD6A4DECFC /* WatchLogIngestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5516A8F6B694AF44C243B882 /* WatchLogIngestTests.swift */; };
 		03DE042795C2AFA00C2CCE9E /* WatchLogRingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5E2B256AC7F8447B1F1C3 /* WatchLogRingTests.swift */; };
+		34FE8396746DEA09AC163FBD /* ReportDraft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86102A94E45ED0F04390C951 /* ReportDraft.swift */; };
+		787FCC8D30BD597B672CB5C2 /* ReportScreenshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C58322FF6CEE8F65D151DD /* ReportScreenshot.swift */; };
+		C7BE855141F78A0DAC564121 /* ReportSubmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CD10D0FB58F483687CC48D /* ReportSubmitter.swift */; };
+		C25C56F3172AC94B9048CCED /* SentReports.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561AF4F0F47F7984FE5BD4F6 /* SentReports.swift */; };
+		AC05A906087DD32A509439F2 /* SendReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B73CCA5C0FB59D8472AAFD /* SendReportView.swift */; };
+		32DC31248CF9E5D252CB85DF /* AppAttestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB83AD877D530A73EA814672 /* AppAttestClient.swift */; };
+		6B9E2BEA4C0929B03089FE33 /* AlertDismissalSnoozeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB77F52DD1FA5095BD61C1 /* AlertDismissalSnoozeTests.swift */; };
+		2A3D41ADE8834E8485A9504D /* PumpStatusSuspendTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2DC7144FFD427B96B8A2B8 /* PumpStatusSuspendTests.swift */; };
+		B52DBBF355407A732FDCE1DE /* ReportClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ECFA954DA8F662969E3223 /* ReportClientTests.swift */; };
+		99506C3B9CC23E2F925009D3 /* ReportProblemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C3B7105DC451594DF96299 /* ReportProblemTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -2510,6 +2520,16 @@
 		C7BC1040D2F0BD84E0718784 /* TrioLoggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrioLoggerTests.swift; sourceTree = "<group>"; };
 		5516A8F6B694AF44C243B882 /* WatchLogIngestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchLogIngestTests.swift; sourceTree = "<group>"; };
 		FEA5E2B256AC7F8447B1F1C3 /* WatchLogRingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchLogRingTests.swift; sourceTree = "<group>"; };
+		86102A94E45ED0F04390C951 /* ReportDraft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportDraft.swift; sourceTree = "<group>"; };
+		36C58322FF6CEE8F65D151DD /* ReportScreenshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportScreenshot.swift; sourceTree = "<group>"; };
+		C7CD10D0FB58F483687CC48D /* ReportSubmitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportSubmitter.swift; sourceTree = "<group>"; };
+		561AF4F0F47F7984FE5BD4F6 /* SentReports.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentReports.swift; sourceTree = "<group>"; };
+		48B73CCA5C0FB59D8472AAFD /* SendReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendReportView.swift; sourceTree = "<group>"; };
+		BB83AD877D530A73EA814672 /* AppAttestClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAttestClient.swift; sourceTree = "<group>"; };
+		04AB77F52DD1FA5095BD61C1 /* AlertDismissalSnoozeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertDismissalSnoozeTests.swift; sourceTree = "<group>"; };
+		AE2DC7144FFD427B96B8A2B8 /* PumpStatusSuspendTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PumpStatusSuspendTests.swift; sourceTree = "<group>"; };
+		12ECFA954DA8F662969E3223 /* ReportClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportClientTests.swift; sourceTree = "<group>"; };
+		70C3B7105DC451594DF96299 /* ReportProblemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportProblemTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -2987,8 +3007,20 @@
 				3811DE3925C9D4A100A708ED /* SettingsStateModel.swift */,
 				3811DE3B25C9D4A100A708ED /* View */,
 				BDCAF2372C639F35002DC907 /* SettingItems.swift */,
+				9C010A737CBFB0028E98B2E9 /* ReportProblem */,
 			);
 			path = Settings;
+			sourceTree = "<group>";
+		};
+		9C010A737CBFB0028E98B2E9 /* ReportProblem */ = {
+			isa = PBXGroup;
+			children = (
+				86102A94E45ED0F04390C951 /* ReportDraft.swift */,
+				36C58322FF6CEE8F65D151DD /* ReportScreenshot.swift */,
+				C7CD10D0FB58F483687CC48D /* ReportSubmitter.swift */,
+				561AF4F0F47F7984FE5BD4F6 /* SentReports.swift */,
+			);
+			path = ReportProblem;
 			sourceTree = "<group>";
 		};
 		3811DE3B25C9D4A100A708ED /* View */ = {
@@ -3031,8 +3063,17 @@
 				9A3C0DE10000000000000C01 /* WatchCommand */,
 				38E8754D275556E100975559 /* WatchManager */,
 				FCF410FF2012BCB1A08D4F48 /* ProfileScheduleFirer.swift */,
+				196DA87A7331DB0D3420E81B /* AppAttest */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		196DA87A7331DB0D3420E81B /* AppAttest */ = {
+			isa = PBXGroup;
+			children = (
+				BB83AD877D530A73EA814672 /* AppAttestClient.swift */,
+			);
+			path = AppAttest;
 			sourceTree = "<group>";
 		};
 		3811DE9225C9D88200A708ED /* Appearance */ = {
@@ -3764,6 +3805,10 @@
 				CD1235A000000000000000F1 /* TidepoolUploadSerializerTests.swift */,
 				CE1425A000000000000000A1 /* CarbsEntryLoopKitTests.swift */,
 				A5D6B6D83F32CE8BBDDB4E5B /* Logging */,
+				04AB77F52DD1FA5095BD61C1 /* AlertDismissalSnoozeTests.swift */,
+				AE2DC7144FFD427B96B8A2B8 /* PumpStatusSuspendTests.swift */,
+				12ECFA954DA8F662969E3223 /* ReportClientTests.swift */,
+				70C3B7105DC451594DF96299 /* ReportProblemTests.swift */,
 			);
 			path = TrioTests;
 			sourceTree = "<group>";
@@ -4977,6 +5022,7 @@
 				DD17451C2C543C5F00211FAC /* ServicesView.swift */,
 				DD1745362C55B74200211FAC /* AlgorithmSettings.swift */,
 				7373EC0CC3C059178CB967B4 /* ReportProblemView.swift */,
+				48B73CCA5C0FB59D8472AAFD /* SendReportView.swift */,
 			);
 			path = Subviews;
 			sourceTree = "<group>";
@@ -6988,6 +7034,12 @@
 				92DE66B4776804F0DD8A2925 /* WatchLogRing.swift in Sources */,
 				659C83549641F3FCC56F30AB /* ReportProblemView.swift in Sources */,
 				F6854A961CB1CF1105757936 /* LogShareRow.swift in Sources */,
+				34FE8396746DEA09AC163FBD /* ReportDraft.swift in Sources */,
+				787FCC8D30BD597B672CB5C2 /* ReportScreenshot.swift in Sources */,
+				C7BE855141F78A0DAC564121 /* ReportSubmitter.swift in Sources */,
+				C25C56F3172AC94B9048CCED /* SentReports.swift in Sources */,
+				AC05A906087DD32A509439F2 /* SendReportView.swift in Sources */,
+				32DC31248CF9E5D252CB85DF /* AppAttestClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -7128,6 +7180,10 @@
 				BD14CA4C88D904242178280A /* TrioLoggerTests.swift in Sources */,
 				FC83BDFB7C330BFD6A4DECFC /* WatchLogIngestTests.swift in Sources */,
 				03DE042795C2AFA00C2CCE9E /* WatchLogRingTests.swift in Sources */,
+				6B9E2BEA4C0929B03089FE33 /* AlertDismissalSnoozeTests.swift in Sources */,
+				2A3D41ADE8834E8485A9504D /* PumpStatusSuspendTests.swift in Sources */,
+				B52DBBF355407A732FDCE1DE /* ReportClientTests.swift in Sources */,
+				99506C3B9CC23E2F925009D3 /* ReportProblemTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
