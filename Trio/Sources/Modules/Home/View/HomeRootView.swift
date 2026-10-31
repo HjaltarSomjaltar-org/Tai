@@ -36,7 +36,6 @@ extension Home {
         @State var pendingPump: PumpCatalogEntry?
         @State var pendingCGM: CGMCatalogEntry?
         @State var showSnoozeSheet: Bool = false
-        @State var alarmsSnoozeUntil: Date = .distantPast
         @State var showManualGlucose: Bool = false
         @State var showReleaseNotes: Bool = false
         @State var notificationsDisabled = false
@@ -204,7 +203,6 @@ extension Home {
             .ignoresSafeArea(.keyboard, edges: .bottom)
             .onAppear {
                 configureView()
-                refreshAlarmsSnooze()
             }
             .task {
                 await releaseNotesService.load()
@@ -236,10 +234,6 @@ extension Home {
             }
             .sheet(isPresented: $showSnoozeSheet) {
                 SnoozeAlertsSheetView(resolver: resolver, isPresented: $showSnoozeSheet)
-            }
-            // UserDefaults changes don't invalidate views; refresh on sheet dismissal
-            .onChange(of: showSnoozeSheet) {
-                if !showSnoozeSheet { refreshAlarmsSnooze() }
             }
             .sheet(isPresented: $showReleaseNotes) {
                 if let notes = releaseNotesService.notes {
